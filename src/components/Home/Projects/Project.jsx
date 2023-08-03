@@ -23,7 +23,7 @@ function Project({
       <div className="flex flex-col items-center justify-center px-3 w-full md:w-10/12 xl:w-8/12 mx-auto text-center">
         <p className="font-bold mb-4 uppercase">{title}</p>
         <p className="mb-4 text-gray-500">{description}</p>
-        <div className="flex items-center justify-center gap-3 mb-10">
+        <div className="flex items-center justify-center flex-wrap gap-3 mb-10">
           {technologies.map((Technology) => {
             return (
               <div key={Technology} className="px-4 py-2 technology-box-shadow">
