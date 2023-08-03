@@ -10,8 +10,8 @@ function Project({
   liveDemoUrl,
 }) {
   return (
-    <article className="grid grid-cols-1 lg:grid-cols-[55%_auto] w-full h-96 p-3 border border-gray-600 shadow-2xl rounded-xl">
-      <div className="overflow-hidden rounded-xl shadow-2xl">
+    <article className="grid grid-cols-1 lg:grid-cols-[55%_auto] gap-y-10 gap-x-6 w-full h-[600px] lg:h-96 p-5 project-shadow rounded-xl">
+      <div className="overflow-hidden rounded-xl landing-page-shadow">
         <Image
           src={img}
           width={500}
@@ -20,29 +20,43 @@ function Project({
           className="w-full"
         />
       </div>
-      <div className="flex flex-col items-center justify-center px-3 w-3/4 mx-auto text-center">
-        <p className="font-bold mb-4">{title}</p>
-        <p className="mb-4">{description}</p>
-        <div className="flex items-center justify-center gap-3 mb-4">
+      <div className="flex flex-col items-center justify-center px-3 w-full md:w-10/12 xl:w-8/12 mx-auto text-center">
+        <p className="font-bold mb-4 uppercase">{title}</p>
+        <p className="mb-4 text-gray-500">{description}</p>
+        <div className="flex items-center justify-center gap-3 mb-10">
           {technologies.map((Technology) => {
             return (
-              <div className="border px-3 py-1">
+              <div className="px-4 py-2 technology-box-shadow">
                 <p>{Technology}</p>
               </div>
             );
           })}
         </div>
         <div className="flex items-center justify-center gap-10">
-          <Link href={githubUrl}>
+          <Link
+            className="flex items-center justify-between gap-2"
+            href={githubUrl}
+          >
             <span>Code</span>
             <Image
               src="/icons/github.svg"
-              width={50}
-              height={50}
-              alt="github icon "
+              width={30}
+              height={30}
+              alt="github icon"
             />
           </Link>
-          <Link href={liveDemoUrl}></Link>
+          <Link
+            href={liveDemoUrl}
+            className="flex items-center justify-between gap-2"
+          >
+            <span>Live Demo</span>
+            <Image
+              src="/icons/arrow-up-right-from-square-solid.svg"
+              width={30}
+              height={30}
+              alt="github icon"
+            />
+          </Link>
         </div>
       </div>
     </article>

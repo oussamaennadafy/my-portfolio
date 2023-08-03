@@ -8,7 +8,7 @@ function index() {
         <h2 className="mb-5 font-black text-xl">
           <p>Each project is a unique piece of development 🧩</p>
         </h2>
-        <div className="flex flex-col gap-5 py-10">
+        <div className="flex flex-col gap-10 py-10">
           <Project
             img="/imgs/project1.webp"
             title="project title"
