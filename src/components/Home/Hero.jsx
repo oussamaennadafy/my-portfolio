@@ -15,22 +15,33 @@ function Hero() {
                   src="/imgs/waving.1bae5fcfb51082b5c2b4.png"
                   width={60}
                   height={60}
+                  alt="waving icon"
                 />
               </span>
             </h1>
             <p className="mb-6">
-              Hi, I'm Oussama Ennadafy. A passionate Full-stack Developer based
-              in Safi, Morocco. 📍
+              Hi, I&apos;m Oussama Ennadafy. A passionate Full-stack Developer
+              based in Safi, Morocco. 📍
             </p>
             <div className="flex items-center gap-3">
               <Link
                 target="_blank"
                 href="https://www.linkedin.com/in/oussama-ennadafy"
               >
-                <Image src="/icons/linkedIn.svg" width={30} height={30} />
+                <Image
+                  src="/icons/linkedIn.svg"
+                  width={30}
+                  height={30}
+                  alt="linkedIn icon"
+                />
               </Link>
               <Link target="_blank" href="https://github.com/oussamaennadafy">
-                <Image src="/icons/github.svg" width={30} height={30} />
+                <Image
+                  src="/icons/github.svg"
+                  width={30}
+                  height={30}
+                  alt="github icon"
+                />
               </Link>
             </div>
           </div>
@@ -40,6 +51,7 @@ function Hero() {
               src="/imgs/my-pic3.jpg"
               width={500}
               height={500}
+              alt="oussama ennadafy picture"
             />
           </div>
         </div>
@@ -52,6 +64,7 @@ function Hero() {
               src="https://upload.wikimedia.org/wikipedia/commons/9/93/MongoDB_Logo.svg"
               width={100}
               height={100}
+              alt="mongodb logo"
             />
           </div>
           <div className="h-24 w-24 flex items-center justify-center rounded-full border border-gray-300 p-3">
@@ -60,6 +73,7 @@ function Hero() {
               src="https://upload.wikimedia.org/wikipedia/commons/6/64/Expressjs.png"
               width={100}
               height={100}
+              alt="express js logo"
             />
           </div>
           <div className="h-24 w-24 flex items-center justify-center rounded-full border border-gray-300 p-3">
@@ -68,6 +82,7 @@ function Hero() {
               src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg"
               width={100}
               height={100}
+              alt="rect js logo"
             />
           </div>
           <div className="h-24 w-24 flex items-center justify-center rounded-full border border-gray-300 p-3">
@@ -76,6 +91,7 @@ function Hero() {
               src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg"
               width={100}
               height={100}
+              alt="node js logo"
             />
           </div>
           <span className="mx-4">|</span>
@@ -85,6 +101,7 @@ function Hero() {
               src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Laravel.svg"
               width={100}
               height={100}
+              alt="laravel icon"
             />
           </div>
           <div className="h-24 w-24 flex items-center justify-center rounded-full border border-gray-300 p-3">
@@ -93,6 +110,7 @@ function Hero() {
               src="https://upload.wikimedia.org/wikipedia/commons/9/95/Vue.js_Logo_2.svg"
               width={100}
               height={100}
+              alt="vue js logo"
             />
           </div>
         </div>

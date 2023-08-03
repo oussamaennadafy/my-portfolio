@@ -16,6 +16,7 @@ function Contact() {
                 width={40}
                 height={40}
                 className="text-blue-800"
+                alt="location icon"
               />
             </div>
             <div>
@@ -30,6 +31,7 @@ function Contact() {
                 width={40}
                 height={40}
                 className="text-blue-800"
+                alt="envelope open text solid icon"
               />
             </div>
             <div>

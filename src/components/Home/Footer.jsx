@@ -10,7 +10,12 @@ function Footer() {
           target="_blank"
           href="https://www.linkedin.com/in/oussama-ennadafy"
         >
-          <Image src="/icons/white-linkedin.svg" width={30} height={30} />
+          <Image
+            src="/icons/white-linkedin.svg"
+            width={30}
+            height={30}
+            alt="linkedIn icon"
+          />
         </Link>
         <Link target="_blank" href="https://github.com/oussamaennadafy">
           <Image
@@ -18,6 +23,7 @@ function Footer() {
             width={30}
             height={30}
             className="fill-white"
+            alt="github icon"
           />
         </Link>
       </div>
