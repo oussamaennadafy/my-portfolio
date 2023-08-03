@@ -26,7 +26,7 @@ function Project({
         <div className="flex items-center justify-center gap-3 mb-10">
           {technologies.map((Technology) => {
             return (
-              <div className="px-4 py-2 technology-box-shadow">
+              <div key={Technology} className="px-4 py-2 technology-box-shadow">
                 <p>{Technology}</p>
               </div>
             );
