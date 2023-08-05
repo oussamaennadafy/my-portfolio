@@ -5,7 +5,7 @@ function Hero() {
   return (
     <section className="px-14 py-28 bg-slate-100 min-h-[calc(100vh-80px)]">
       <div className="max-w-[1200px] mx-auto">
-        <div className="flex items-center justify-between gap-10">
+        <div className="flex items-center justify-center lg:justify-between text-center lg:text-left gap-10 flex-wrap-reverse lg:flex-nowrap">
           <div className="w-1/2">
             <h1 className="text-6xl font-extrabold mb-6 ">
               Full-stack Developer
@@ -23,7 +23,7 @@ function Hero() {
               Hi, I&apos;m Oussama Ennadafy. A passionate Full-stack Developer
               based in Safi, Morocco. 📍
             </p>
-            <div className="flex items-center gap-3">
+            <div className="flex items-center justify-center lg:justify-start gap-3">
               <Link
                 target="_blank"
                 href="https://www.linkedin.com/in/oussama-ennadafy"
@@ -55,7 +55,7 @@ function Hero() {
             />
           </div>
         </div>
-        <div className="flex items-center gap-3">
+        <div className="flex items-center gap-3 mt-10 flex-wrap justify-center lg:justify-start">
           <p>teck stack</p>
           <span className="mx-4">&#8594;</span>
           <div className="h-24 w-24 flex items-center justify-center rounded-full border border-gray-300 p-3">
