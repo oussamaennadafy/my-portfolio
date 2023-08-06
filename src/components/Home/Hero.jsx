@@ -3,10 +3,10 @@ import Link from "next/link";
 
 function Hero() {
   return (
-    <section className="px-14 py-28 bg-slate-100 min-h-[calc(100vh-80px)]">
+    <section className="lg:px-14 px-6 py-28 bg-slate-100 min-h-[calc(100vh-80px)]">
       <div className="max-w-[1200px] mx-auto">
         <div className="flex items-center justify-center lg:justify-between text-center lg:text-left gap-10 flex-wrap-reverse lg:flex-nowrap">
-          <div className="w-1/2">
+          <div className="lg:w-1/2">
             <h1 className="text-6xl font-extrabold mb-6 ">
               Full-stack Developer
               <span>
