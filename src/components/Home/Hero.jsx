@@ -3,11 +3,11 @@ import Link from "next/link";
 
 function Hero() {
   return (
-    <section className="lg:px-14 px-6 py-28 bg-slate-100 min-h-[calc(100vh-80px)]">
+    <section className="lg:px-14 px-4 py-28 bg-slate-100 min-h-[calc(100vh-80px)]">
       <div className="max-w-[1200px] mx-auto">
         <div className="flex items-center justify-center lg:justify-between text-center lg:text-left gap-10 flex-wrap-reverse lg:flex-nowrap">
           <div className="lg:w-1/2">
-            <h1 className="text-6xl font-extrabold mb-6 ">
+            <h1 className="text-4xl lg:text-6xl font-extrabold mb-6 ">
               Full-stack Developer
               <span>
                 <Image
@@ -45,9 +45,9 @@ function Hero() {
               </Link>
             </div>
           </div>
-          <div className="w-96 h-96 rounded-full overflow-hidden">
+          <div className="w-80 h-80 lg:w-96 lg:h-96 rounded-full overflow-hidden">
             <Image
-              className="w-full h-full object-cover hover:scale-105 transition-all active:scale-100"
+              className="w-full h-full object-cover"
               src="/imgs/my-pic3.jpg"
               width={500}
               height={500}

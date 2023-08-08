@@ -2,7 +2,7 @@ import Image from "next/image";
 
 function About() {
   return (
-    <section className="lg:px-14 px-6 lg:my-32 my-12">
+    <section id="About" className="lg:px-14 px-6 lg:pt-32 pt-12">
       <div className="max-w-[1200px] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-14 lg:justify-items-start justify-items-center">
         <div>
           <Image

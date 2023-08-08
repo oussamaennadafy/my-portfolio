@@ -2,7 +2,7 @@ import Image from "next/image";
 
 function Contact() {
   return (
-    <section className="lg:px-14 px-6 lg:my-32 my-12">
+    <section id="Contact" className="lg:px-14 px-6 lg:my-32 my-12">
       <div className="max-w-[1200px] mx-auto">
         <p className="uppercase font-black text-blue-500 mb-4">CONTACT</p>
         <h2 className="mb-5 font-black text-xl">

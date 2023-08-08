@@ -6,7 +6,7 @@ function Header({ setDisplayMenu }) {
     setDisplayMenu(true);
   };
   return (
-    <header className="px-12 h-20 flex justify-between items-center font-bold shadow-md text-gray-700">
+    <header className="px-4 lg:px-12 h-20 flex justify-between items-center font-bold shadow-md text-gray-700">
       <Link className="font-extrabold text-xl" href="/">
         Oussama.dev
       </Link>
