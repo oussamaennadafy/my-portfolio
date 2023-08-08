@@ -1,10 +1,10 @@
 import Image from "next/image";
 import Link from "next/link";
 
-function Header({setDisplayMenu}) {
+function Header({ setDisplayMenu }) {
   const handleClick = () => {
     setDisplayMenu(true);
-  }
+  };
   return (
     <header className="px-12 h-20 flex justify-between items-center font-bold shadow-md text-gray-700">
       <Link className="font-extrabold text-xl" href="/">
@@ -26,13 +26,13 @@ function Header({setDisplayMenu}) {
           </li>
         </ul>
       </nav>
-      <button onClick={handleClick} className="p-2">
-      <Image
-        src="/icons/bars-solid.svg"
-        width={20}
-        height={20}
-        alt="menu icon"
-      />
+      <button onClick={handleClick} className="p-2 lg:hidden">
+        <Image
+          src="/icons/bars-solid.svg"
+          width={22}
+          height={22}
+          alt="menu icon"
+        />
       </button>
     </header>
   );
