@@ -1,0 +1,34 @@
+[
+  {
+    "img": "/imgs/project1.webp",
+    "title": "project title 1",
+    "description": "A car rental website is an online platform that allows users to rent cars for personal or business use. The website provides an interface for searching, comparing, and reserving cars.",
+    "technologies": ["html", "css", "nextjs"],
+    "githubUrl": "https://www.github.com",
+    "liveDemoUrl": "https://www.github.com"
+  },
+  {
+    "img": "/imgs/project1.webp",
+    "title": "project title 2",
+    "description": "A car rental website is an online platform that allows users to rent cars for personal or business use. The website provides an interface for searching, comparing, and reserving cars.",
+    "technologies": ["html", "css", "nextjs"],
+    "githubUrl": "https://www.github.com",
+    "liveDemoUrl": "https://www.github.com"
+  },
+  {
+    "img": "/imgs/project1.webp",
+    "title": "project title 3",
+    "description": "A car rental website is an online platform that allows users to rent cars for personal or business use. The website provides an interface for searching, comparing, and reserving cars.",
+    "technologies": ["html", "css", "nextjs"],
+    "githubUrl": "https://www.github.com",
+    "liveDemoUrl": "https://www.github.com"
+  },
+  {
+    "img": "/imgs/project1.webp",
+    "title": "project title 4",
+    "description": "A car rental website is an online platform that allows users to rent cars for personal or business use. The website provides an interface for searching, comparing, and reserving cars.",
+    "technologies": ["html", "css", "nextjs"],
+    "githubUrl": "https://www.github.com",
+    "liveDemoUrl": "https://www.github.com"
+  }
+]

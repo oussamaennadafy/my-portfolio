@@ -2,16 +2,27 @@ import Image from "next/image";
 import Link from "next/link";
 
 function Project({
-  img,
-  title,
-  description,
-  technologies,
-  githubUrl,
-  liveDemoUrl,
+  projectData: {
+    img,
+    title,
+    description,
+    technologies,
+    githubUrl,
+    liveDemoUrl,
+  },
+  isEven,
 }) {
   return (
-    <article className="grid grid-cols-1 lg:grid-cols-[55%_auto] gap-y-10 gap-x-6 w-full h-[600px] lg:h-96 p-5 project-shadow rounded-xl">
-      <div className="overflow-hidden rounded-xl landing-page-shadow">
+    <article
+      className={
+        "flex flex-col lg:flex-row gap-y-10 gap-x-6 w-full h-[600px] lg:h-96 p-5 project-shadow rounded-xl"
+      }
+    >
+      <div
+        className={`overflow-hidden rounded-xl landing-page-shadow basis-full ${
+          isEven ? "order-last" : "order-first"
+        }`}
+      >
         <Image
           src={img}
           width={500}
@@ -20,7 +31,7 @@ function Project({
           className="w-full"
         />
       </div>
-      <div className="flex flex-col items-center justify-center px-3 w-full md:w-10/12 xl:w-8/12 mx-auto text-center">
+      <div className="flex flex-col items-center justify-center px-3 md:w-10/12 xl:w-8/12 mx-auto text-center">
         <p className="font-bold mb-4 uppercase">{title}</p>
         <p className="mb-4 text-gray-500">{description}</p>
         <div className="flex items-center justify-center flex-wrap gap-3 mb-10">

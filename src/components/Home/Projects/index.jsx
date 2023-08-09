@@ -1,4 +1,5 @@
 import Project from "@/components/Home/Projects/Project";
+import projects from "@/../public/json/projects.json";
 
 function index() {
   return (
@@ -9,38 +10,15 @@ function index() {
           <p>Each project is a unique piece of development 🧩</p>
         </h2>
         <div className="flex flex-col gap-10 py-10">
-          <Project
-            img="/imgs/project1.webp"
-            title="project title"
-            description="A car rental website is an online platform that allows users to rent cars for personal or business use. The website provides an interface for searching, comparing, and reserving cars."
-            technologies={["html", "css", "nextjs"]}
-            githubUrl="https://www.github.com"
-            liveDemoUrl="https://www.github.com"
-          />
-          <Project
-            img="/imgs/project1.webp"
-            title="project title"
-            description="A car rental website is an online platform that allows users to rent cars for personal or business use. The website provides an interface for searching, comparing, and reserving cars."
-            technologies={["html", "css", "nextjs"]}
-            githubUrl="https://www.github.com"
-            liveDemoUrl="https://www.github.com"
-          />
-          <Project
-            img="/imgs/project1.webp"
-            title="project title"
-            description="A car rental website is an online platform that allows users to rent cars for personal or business use. The website provides an interface for searching, comparing, and reserving cars."
-            technologies={["html", "css", "nextjs"]}
-            githubUrl="https://www.github.com"
-            liveDemoUrl="https://www.github.com"
-          />
-          <Project
-            img="/imgs/project1.webp"
-            title="project title"
-            description="A car rental website is an online platform that allows users to rent cars for personal or business use. The website provides an interface for searching, comparing, and reserving cars."
-            technologies={["html", "css", "nextjs"]}
-            githubUrl="https://www.github.com"
-            liveDemoUrl="https://www.github.com"
-          />
+          {projects.map((projectData, i) => {
+            return (
+              <Project
+                projectData={projectData}
+                key={projectData.title}
+                isEven={i % 2}
+              />
+            );
+          })}
         </div>
       </div>
     </section>
