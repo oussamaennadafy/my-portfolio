@@ -9,7 +9,7 @@ function Hero() {
           <div className="lg:w-1/2">
             <h1 className="text-4xl lg:text-6xl font-extrabold mb-6 ">
               Full-stack Developer
-              <span>
+              <span className="hidden sm:inline">
                 <Image
                   className="inline-block ml-3"
                   src="/imgs/waving.1bae5fcfb51082b5c2b4.png"
