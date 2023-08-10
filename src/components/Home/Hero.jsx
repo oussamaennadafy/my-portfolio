@@ -117,10 +117,10 @@ function Hero() {
           <div className="h-24 w-24 flex items-center justify-center rounded-full border border-gray-300 p-3 overflow-hidden">
             <Image
               className="w-full object-cover"
-              src="/imgs/spring-boot-logo.jpg"
+              src="/imgs/spring-boot-logo.png"
               width={100}
               height={100}
-              alt="laravel icon"
+              alt="spring boot icon"
             />
           </div>
           <div className="h-24 w-24 flex items-center justify-center rounded-full border border-gray-300 p-3 overflow-hidden">
