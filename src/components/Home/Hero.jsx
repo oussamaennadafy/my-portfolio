@@ -58,7 +58,7 @@ function Hero() {
         <div className="flex items-center gap-3 mt-10 flex-wrap justify-center lg:justify-start">
           <p>teck stack</p>
           <span className="mx-4">&#8594;</span>
-          <div className="h-24 w-24 flex items-center justify-center rounded-full border border-gray-300 p-3">
+          {/* <div className="h-24 w-24 flex items-center justify-center rounded-full border border-gray-300 p-3">
             <Image
               className="w-full object-cover"
               src="https://upload.wikimedia.org/wikipedia/commons/9/93/MongoDB_Logo.svg"
@@ -66,8 +66,8 @@ function Hero() {
               height={100}
               alt="mongodb logo"
             />
-          </div>
-          <div className="h-24 w-24 flex items-center justify-center rounded-full border border-gray-300 p-3">
+          </div> */}
+          <div className="h-24 w-24 flex items-center justify-center rounded-full border border-gray-300 p-3 overflow-hidden">
             <Image
               className="w-full object-cover"
               src="https://upload.wikimedia.org/wikipedia/commons/6/64/Expressjs.png"
@@ -76,16 +76,16 @@ function Hero() {
               alt="express js logo"
             />
           </div>
-          <div className="h-24 w-24 flex items-center justify-center rounded-full border border-gray-300 p-3">
+          <div className="h-24 w-24 flex items-center justify-center rounded-full border border-gray-300 p-3 overflow-hidden">
             <Image
               className="w-full object-cover"
               src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg"
               width={100}
               height={100}
-              alt="rect js logo"
+              alt="react js logo"
             />
           </div>
-          <div className="h-24 w-24 flex items-center justify-center rounded-full border border-gray-300 p-3">
+          {/* <div className="h-24 w-24 flex items-center justify-center rounded-full border border-gray-300 p-3">
             <Image
               className="w-full object-cover"
               src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg"
@@ -93,9 +93,9 @@ function Hero() {
               height={100}
               alt="node js logo"
             />
-          </div>
+          </div> */}
           <span className="mx-4">|</span>
-          <div className="h-24 w-24 flex items-center justify-center rounded-full border border-gray-300 p-3">
+          <div className="h-24 w-24 flex items-center justify-center rounded-full border border-gray-300 p-3 overflow-hidden">
             <Image
               className="w-full object-cover"
               src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Laravel.svg"
@@ -104,10 +104,29 @@ function Hero() {
               alt="laravel icon"
             />
           </div>
-          <div className="h-24 w-24 flex items-center justify-center rounded-full border border-gray-300 p-3">
+          <div className="h-24 w-24 flex items-center justify-center rounded-full border border-gray-300 p-3 overflow-hidden">
             <Image
               className="w-full object-cover"
               src="https://upload.wikimedia.org/wikipedia/commons/9/95/Vue.js_Logo_2.svg"
+              width={100}
+              height={100}
+              alt="vue js logo"
+            />
+          </div>
+          <span className="mx-4">|</span>
+          <div className="h-24 w-24 flex items-center justify-center rounded-full border border-gray-300 p-3 overflow-hidden">
+            <Image
+              className="w-full object-cover"
+              src="/imgs/spring-boot-logo.jpg"
+              width={100}
+              height={100}
+              alt="laravel icon"
+            />
+          </div>
+          <div className="h-24 w-24 flex items-center justify-center rounded-full border border-gray-300 p-3 overflow-hidden">
+            <Image
+              className="w-full object-cover"
+              src="/imgs/Angular_full_color_logo.svg.png"
               width={100}
               height={100}
               alt="vue js logo"
