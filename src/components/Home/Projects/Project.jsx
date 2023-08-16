@@ -25,7 +25,7 @@ function Project({
       >
         <Image
           src={img}
-          width={500}
+          width={1000}
           height={1000}
           alt="landing page of project"
           className="w-full"
