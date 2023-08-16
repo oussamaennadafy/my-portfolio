@@ -23,7 +23,7 @@ html {
 }
 
 .animate-turn {
-  animation: animate-turn infinite 3s linear;
+  animation: animate-turn infinite 5s linear;
 }
 
 @keyframes animate-turn {
