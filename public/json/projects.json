@@ -2,7 +2,7 @@
   {
     "img": "/imgs/project1.png",
     "title": "Airbnb Clone",
-    "description": "A car rental website is an online platform that allows users to rent cars for personal or business use. The website provides an interface for searching, comparing, and reserving cars.",
+    "description": "Recreating core features of Airbnb, the project highlights my proficiency in full-stack development. The platform offers a simplified interface for browsing property listings, emphasizing user-centric design.",
     "technologies": ["react js", "node js", "express js", "mongodb"],
     "githubUrl": "https://github.com/oussamaennadafy/Airbnb-clone-frontend",
     "liveDemoUrl": "https://airbnb-clone-by-oussama.netlify.app"
