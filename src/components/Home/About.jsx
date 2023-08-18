@@ -12,7 +12,7 @@ function About() {
             height={450}
             alt="about me image"
           />
-          <div className="w-40 h-40 rounded-full bg-white absolute bottom-0 right-0 translate-y-1/4 translate-x-1/4">
+          <div className="hidden md:block w-40 h-40 rounded-full bg-white absolute bottom-0 right-0 translate-y-1/4 translate-x-1/4">
             <Image
               className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full h-full animate-turn"
               src="/imgs/full-stack-web-developer-img.png"

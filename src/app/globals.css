@@ -34,3 +34,16 @@ html {
     transform: translate(-50%, -50%) rotate(-360deg);
   }
 }
+
+.animate-scroll {
+  animation: animate-scroll infinite 1s linear;
+}
+
+@keyframes animate-scroll {
+  0% {
+    top: 0;
+  }
+  100% {
+    bottom: 0;
+  }
+}

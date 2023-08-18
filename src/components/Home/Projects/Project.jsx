@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import { useState } from "react";
 
 function Project({
   projectData: {
@@ -12,6 +13,7 @@ function Project({
   },
   isEven,
 }) {
+  // const [isHoverd, setIsHoverd] = useState(false);
   return (
     <article
       className={
@@ -19,7 +21,7 @@ function Project({
       }
     >
       <div
-        className={`overflow-hidden rounded-xl landing-page-shadow basis-full ${
+        className={`relative overflow-hidden rounded-xl landing-page-shadow basis-full ${
           isEven ? "order-last" : "order-first"
         }`}
       >
@@ -28,7 +30,7 @@ function Project({
           width={1000}
           height={1000}
           alt="landing page of project"
-          className="w-full"
+          className={`w-full absolute`}
         />
       </div>
       <div className="flex flex-col items-center justify-center px-3 md:w-10/12 xl:w-8/12 mx-auto text-center">
@@ -47,6 +49,7 @@ function Project({
           <Link
             className="flex items-center justify-between gap-2"
             href={githubUrl}
+            target="_blank"
           >
             <span>Code</span>
             <Image
@@ -59,6 +62,7 @@ function Project({
           <Link
             href={liveDemoUrl}
             className="flex items-center justify-between gap-2"
+            target="_blank"
           >
             <span>Live Demo</span>
             <Image
