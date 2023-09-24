@@ -1,34 +1,39 @@
 [
   {
+    "img": "/imgs/multi_vendor_ecommerce_plateform.png",
+    "title": "multi vendor ecommerce plateform",
+    "description": "Developed a Laravel-based ecommerce platform with Bootstrap and Blade templates, enabling multiple vendors to efficiently manage products and orders, while ensuring a seamless and secure shopping experience.",
+    "technologies": ["laravel", "bootstrap", "Stripe"],
+    "githubUrl": "https://github.com/oussamaennadafy/e-commerce",
+    "liveDemoUrl": "#",
+    "status": "incomplete"
+  },
+  {
     "img": "/imgs/project1.png",
     "title": "Airbnb Clone",
     "description": "Recreating core features of Airbnb, the project highlights my proficiency in full-stack development. The platform offers a simplified interface for browsing property listings, emphasizing user-centric design.",
     "technologies": ["react js", "node js", "express js", "mongodb"],
     "githubUrl": "https://github.com/oussamaennadafy/Airbnb-clone-frontend",
-    "liveDemoUrl": "https://airbnb-clone-by-oussama.netlify.app"
+    "liveDemoUrl": "https://airbnb-clone-by-oussama.netlify.app",
+    "status": "complete"
   },
   {
-    "img": "/imgs/project1.webp",
-    "title": "project title 2",
-    "description": "A car rental website is an online platform that allows users to rent cars for personal or business use. The website provides an interface for searching, comparing, and reserving cars.",
-    "technologies": ["html", "css", "nextjs"],
-    "githubUrl": "https://www.github.com",
-    "liveDemoUrl": "https://www.github.com"
+    "img": "/imgs/react-food.png",
+    "title": "Food ordering app",
+    "description": "for the purpose of learning react and redux i build this simple app for ordering food, and i build for it an api using express and mongodb to fetch the meals, and save the orders",
+    "technologies": ["react js","redux js", "express js", "mongodb"],
+    "githubUrl": "https://github.com/oussamaennadafy/ReactMeals",
+    "liveDemoUrl": "https://react-meals-by-oussama.netlify.app",
+    "status": "complete"
   },
   {
-    "img": "/imgs/project1.webp",
-    "title": "project title 3",
-    "description": "A car rental website is an online platform that allows users to rent cars for personal or business use. The website provides an interface for searching, comparing, and reserving cars.",
-    "technologies": ["html", "css", "nextjs"],
-    "githubUrl": "https://www.github.com",
-    "liveDemoUrl": "https://www.github.com"
-  },
-  {
-    "img": "/imgs/project1.webp",
-    "title": "project title 4",
-    "description": "A car rental website is an online platform that allows users to rent cars for personal or business use. The website provides an interface for searching, comparing, and reserving cars.",
-    "technologies": ["html", "css", "nextjs"],
-    "githubUrl": "https://www.github.com",
-    "liveDemoUrl": "https://www.github.com"
+    "img": "/imgs/react-learning-project-oussama.netlify.app_.png",
+    "title": "Expenses tracker",
+    "description": "simple react app to add expenses, and display a graph that shows the ",
+    "technologies": ["react js", "tailwind"],
+    "githubUrl": "https://github.com/oussamaennadafy/expenses-tracker",
+    "liveDemoUrl": "https://react-learning-project-oussama.netlify.app/",
+    "status": "complete"
+    
   }
 ]

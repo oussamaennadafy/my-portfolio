@@ -113,25 +113,6 @@ function Hero() {
               alt="vue js logo"
             />
           </div>
-          <span className="mx-4">|</span>
-          <div className="h-24 w-24 flex items-center justify-center rounded-full border border-gray-300 p-3 overflow-hidden">
-            <Image
-              className="w-full object-cover"
-              src="/imgs/spring-boot-logo.png"
-              width={100}
-              height={100}
-              alt="spring boot icon"
-            />
-          </div>
-          <div className="h-24 w-24 flex items-center justify-center rounded-full border border-gray-300 p-3 overflow-hidden">
-            <Image
-              className="w-full object-cover"
-              src="/imgs/Angular_full_color_logo.svg.png"
-              width={100}
-              height={100}
-              alt="vue js logo"
-            />
-          </div>
         </div>
       </div>
     </section>

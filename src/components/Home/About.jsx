@@ -36,13 +36,7 @@ function About() {
             <span>Safi, Morocco. 📍</span>
           </h2>
           <p className="text-gray-500">
-            I&apos;m a passionate Full Stack Developer skilled in HTML, CSS,
-            JavaScript, React, Node.js, Express, MongoDB, and SQL. I excel at
-            creating seamless web solutions that balance functionality and
-            aesthetics. From interactive front-ends to robust back-end systems,
-            I&apos;m committed to efficient and up-to-date coding practices.
-            Collaborative by nature, I enjoy working across disciplines to
-            deliver exceptional web applications.
+            I&apos;m a passionate Full Stack Developer, proficient in both front-end and back-end development. My expertise lies in creating seamless web solutions that balance aesthetics and functionality. From user-friendly interfaces to robust server-side systems, I&apos;m dedicated to efficient and collaborative coding practices.
           </p>
         </div>
       </div>

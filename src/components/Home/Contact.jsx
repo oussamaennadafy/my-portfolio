@@ -12,7 +12,7 @@ function Contact() {
           <div className="flex items-center gap-5 min-w-[300px] flex-col justify-center text-center lg:justify-start lg:text-left lg:flex-row">
             <div className="rounded-full p-6 icon-shadow">
               <Image
-                src="/icons/map-location-dot-solid.svg"
+                src="/icons/phone.svg"
                 width={40}
                 height={40}
                 className="text-blue-800"
@@ -20,8 +20,8 @@ function Contact() {
               />
             </div>
             <div>
-              <p className="mb-1 font-semibold">Location</p>
-              <p className="text-gray-600">Safi, Morocco</p>
+              <p className="mb-1 font-semibold">Phone</p>
+              <p className="text-gray-600">+212 688744076</p>
             </div>
           </div>
           <div className="flex items-center gap-5 min-w-[300px] flex-col justify-center text-center lg:justify-start lg:text-left lg:flex-row">
